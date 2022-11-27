@@ -6,7 +6,6 @@ import { AuthProvider } from '../contexts/AuthContext';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
-  
   return (
       <Container className="d-flex align-items-center justify-content-center"
         style={{minHeight: "100vh" }}
@@ -15,7 +14,8 @@ function App() {
           <Router>
             <AuthProvider>
               <Routes>
-                <Route path='linus-tay.github.io/eventified/signup' element={<Signup/>} />
+                <Route path="/eventified" element={<Signup/>} />
+                <Route path="/eventified/signup" element={<Signup/>} />
               </Routes>
             </AuthProvider>
           </Router>
