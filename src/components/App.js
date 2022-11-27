@@ -1,13 +1,14 @@
 import React from 'react'
 import Signup from './Signup';
+import Home from './Home'
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
     <Routes>
-      <Route path="/eventified" exact element={<Signup/>} />
-      <Route path="/eventified/signup" exact element={<Signup/>} />
+      <Route path="/" exact element={<Home/>} />
+      <Route path="/signup" exact element={<Signup/>} />
     </Routes>
   )
 }
