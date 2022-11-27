@@ -14,8 +14,8 @@ function App() {
           <Router>
             <AuthProvider>
               <Routes>
-                <Route path="/eventified" element={<Signup/>} />
-                <Route path="/eventified/signup" element={<Signup/>} />
+                <Route path="/eventified" exact element={<Signup/>} />
+                <Route path="/eventified/signup" exact element={<Signup/>} />
               </Routes>
             </AuthProvider>
           </Router>
