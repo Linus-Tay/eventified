@@ -3,7 +3,7 @@ import Signup from './Signup';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Container } from 'react-bootstrap'
 import { AuthProvider } from '../contexts/AuthContext';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
