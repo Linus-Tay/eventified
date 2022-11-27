@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Form, Button, Card, Alert } from 'react-bootstrap'
 import { useAuth } from '../contexts/AuthContext'
+import { Container } from 'react-bootstrap'
 
 export default function Signup() {
     const emailRef = useRef()
@@ -30,6 +31,8 @@ export default function Signup() {
 
     return (
         <>
+            <Container className="d-flex align-items-center justify-content-center" style={{minHeight: "100vh" }}>
+            <div className="w-100" style={{ maxWidth: '400px' }}>
             <Card>
                 <Card.Body>
                     <h2 className="text-center mb-4">Sign Up</h2>
@@ -54,6 +57,8 @@ export default function Signup() {
                     Already have an account? Log In
                 </div>
             </Card>
+            </div>
+          </Container>
         </>
     )
     }
