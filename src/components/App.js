@@ -15,7 +15,7 @@ function App() {
           <Router>
             <AuthProvider>
               <Routes>
-                <Route path='eventified/signup' element={<Signup/>} />
+                <Route path='linus-tay.github.io/eventified/signup' element={<Signup/>} />
               </Routes>
             </AuthProvider>
           </Router>
