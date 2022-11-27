@@ -1,7 +1,7 @@
 {
   "name": "eventified",
   "version": "0.1.0",
-  "homepage": "http://eventified.lt.com/",
+  "homepage": "https://linus-tay.github.io/eventified",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
